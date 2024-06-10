@@ -1,0 +1,6 @@
+pydantic
+fastapi
+starlette
+uvicorn
+PyYAML
+typing-extensions>=3.10
