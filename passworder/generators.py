@@ -7,7 +7,7 @@ class Generator:
 
     @staticmethod
     def prep_string(hashable_string):
-        if type(hashable_string) != str:
+        if type(hashable_string) is not str:
             raise ValueError("Password should be a string")
         if not str:
             raise ValueError("Password should not be empty")
